@@ -1,0 +1,145 @@
+body {
+  background-color: lightgrey;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: 0%;
+  margin-top: 0%;
+  width: 30%;
+  float: left;
+  position: relative;
+}
+
+.welcome {
+  display: block;
+  margin-left: 35%;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+  color: purple;
+}
+
+.text {
+  font-size: 36px;
+}
+
+.link {
+  display: block;
+  margin-left: 35%;
+  position: relative;
+}
+
+.link li {
+  list-style: none;
+  text-align: center;
+  background-color: purple;
+  width: 150px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+.link li a {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.link li a:hover {
+  background-color: black;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.page {
+  float: right;
+}
+
+li.page a {
+  display: block;
+  color: rgb(231, 199, 199);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.home {
+  background-color: purple;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.page a:hover {
+  background-color: #111;
+}
+
+.about {
+  margin-top: 100px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  top: 100px;
+  font-size: 60px;
+  color: purple;
+}
+
+.tile {
+  width: 25%;
+  border: 5px solid black;
+  text-align: center;
+  height: 500px;
+  vertical-align: auto;
+  padding: 15px;
+  margin-left: 5%;
+  float: left;
+  background-color: #333;
+  padding-bottom: 50px;
+  top: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.tiletitle {
+  font-size: 36px;
+  color: gray;
+}
+
+.tileimage {
+  width: 200px;
+  height:150px;
+  overflow: hidden;
+  border: 3px solid black
+}
+
+.tiletext {
+  color: gray;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.footer {
+  float: left;
+  font-size: 20px;
+  color: purple;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  background-color: gray;
+  height: 100px;
+}
