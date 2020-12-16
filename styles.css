@@ -115,6 +115,12 @@ li.page a:hover {
   margin-bottom: 100px;
 }
 
+.tile:hover {
+  width: 27%;
+  height: 530px;
+  margin-left: 3%;
+}
+
 .tiletitle {
   font-size: 36px;
   color: gray;
