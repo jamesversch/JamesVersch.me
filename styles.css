@@ -19,6 +19,9 @@ body {
   text-align: center;
 }
 
+.bts {
+  border-radius: 15px;
+
 .title {
   font-size: 60px;
   color: purple;
